@@ -1,0 +1,57 @@
+{
+  "dam": {
+    "name": "JANGHEUNG",
+    "code": "5101110"
+  },
+  "db": [
+    {
+      "name": "main_db",
+      "server": "192.168.252.135",
+      "port": "8639",
+      "uid": "layme",
+      "pwd": "thdwlwls_2020",
+      "database": "DTB6"
+    },
+    {
+      "name": "sub_db",
+      "server": "192.168.252.135",
+      "port": "8639",
+      "uid": "layme",
+      "pwd": "thdwlwls_2020",
+      "database": "DTB6"
+    }
+  ],
+  "logger": {
+    "data_files": [
+      "CR1000_1.dat",
+      "CR1000_2.dat",
+      "CR1000_3.dat"
+    ],
+    "items": [
+      {
+        "name": "CR1000_zone1",
+        "ip_oa": "172.20.63.20",
+        "ip_fa": "127.0.0.1",
+        "port": "1470",
+        "data_path": "CR1000_1.dat",
+        "cr1_file": "avw200(mux)_1hr_171103.CR1"
+      },
+      {
+        "name": "CR1000_zone2",
+        "ip_oa": "172.20.63.21",
+        "ip_fa": "127.0.0.1",
+        "port": "1470",
+        "data_path": "CR1000_2.dat",
+        "cr1_file": "zone2_1hr_180529.CR1"
+      },
+      {
+        "name": "CR1000_zone3",
+        "ip_oa": "172.20.63.22",
+        "ip_fa": "127.0.0.1",
+        "port": "1470",
+        "data_path": "CR1000_3.dat",
+        "cr1_file": "zone3_1hr_180529.CR1"
+      }
+    ]
+  }
+}

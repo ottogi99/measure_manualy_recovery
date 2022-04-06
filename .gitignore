@@ -1,0 +1,6 @@
+.idea/
+venv/
+bohyunsan/CR1000/data/app.log
+yongdam/CR1000/data/app.log
+*.hwpx
+*.xlsx
